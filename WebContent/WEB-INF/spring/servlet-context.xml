@@ -31,7 +31,8 @@
 	<resources mapping="/resources/**" location="/resources/" />
 
 	<!-- <context:property-placeholder location="file:D:/backbaseprofile/olbproxy_services/config/config.properties" /> -->
-	<context:property-placeholder location="file:E:\Git\SpringMVC\resources\config.properties" />
+	<!-- <context:property-placeholder location="file:E:\Git\Spring_MVC_Security\resources\config.properties" /> -->
+	<context:property-placeholder location="classpath:config.properties"/>
 	
 	
 	 	<beans:bean id="multipartResolver"
